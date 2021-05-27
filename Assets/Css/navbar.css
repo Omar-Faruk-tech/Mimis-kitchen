@@ -1,0 +1,179 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+    transition: 1s ease;
+}
+.logo img{
+    padding: 20px 0px 0px 30px;
+    margin: 0px 0px 0px 0px;
+   
+}
+.logo-name{
+    color: white;
+}
+.name{
+    margin: 70px 0px 0px 0px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.nav-items{
+    display: flex;
+    color: white;
+    text-align: right;
+    padding: 70px 0px 0px 0px;
+    width: 500px;
+   
+}
+
+.nav-items .nav-links{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-top: 100px;
+    margin: 10px;
+    font-weight: 600;
+}
+.nav-links{
+    text-align: right;
+}
+.nav-items .nav-links:hover{
+    background-color: white;
+    color: red;
+    border-radius: 1px;
+}
+.hamburger-wrapper{
+    display: none;
+}
+
+/*FOOTER DESKTOP DESIGN*/
+footer {
+    background-color: black;
+    color: white;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+ }
+ footer h4{
+    margin-top: 15px;
+    text-align: center;
+}
+.footer-box-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+}
+.footer-box{
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.footer-box2-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+footer .disclaimer .disclaimer-text{
+    font-size: 17px;
+    color: pink;
+    
+}
+.disclaimer{
+    font-size: 17px;
+    color: pink;
+}
+footer h4{
+    font-size: 17px;
+    color: pink;
+    padding: 0px 0px 0px 0px;  
+}
+.twitter, .facebook, .instagram, .whatsapp, .mobile, .email{
+    font-size: 20px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.footer-box2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-box label{
+    font-size: 17px;
+}
+.footer-box input{
+    width: 70%;
+    height: 30px;
+}
+.footer-box3{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+
+/*MEDIUM & SMALL NAVBAR*/
+@media(max-width:900px){
+    nav{
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5s ease;
+}
+.logo img{
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 80px;
+    width: 70px;
+}
+
+.name{
+    margin: 50px 0px 0px 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.hamburger-wrapper{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+.nav-items{
+     display: none;
+     width: 100%;
+}
+.open-nav-items {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 30px 0px;
+    padding: 30px;
+    padding-left: 20px;
+}
+.nav-links {
+    text-align: left;
+    padding: 10px;
+}
+.footer-box-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 30%;
+}
+}
