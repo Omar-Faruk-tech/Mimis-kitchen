@@ -88,12 +88,12 @@ footer p{
     flex-direction: column;
 }
 footer .disclaimer .disclaimer-text{
-    font-size: 17px;
+    font-size: 14px;
     color: pink;
     
 }
 .disclaimer{
-    font-size: 17px;
+    font-size: 14px;
     color: pink;
 }
 footer h4{
@@ -175,5 +175,14 @@ a{
     flex-direction: column-reverse;
     align-items: center;
     height: 30%;
+}
+footer .disclaimer .disclaimer-text{
+    font-size: 10px;
+    color: pink;
+    
+}
+.disclaimer{
+    font-size: 10px;
+    color: pink;
 }
 }

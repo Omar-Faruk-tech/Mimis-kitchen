@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.checkout-body {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-items: center;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+.boxed{
+    margin: 30px;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    line-height: 2;
+    
+    
+}
+.payment-method{
+    display: flex;
+}
+button{
+    background-color: red;
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.submit{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.comment-box{
+    font-size: 15px;
+    color: gray;
+    min-width: 500px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 100px;
+}
+label {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 60px;
+    
+
+}
+input{
+    width: 200px;
+    
+}
+input:placeholder-shown{
+    font-size: 15px;
+}
+.service{
+    width: 40%;
+}
+.boxed p{
+    color: white;
+    font-size: 20px;
+}
+
+   /*MEDIUM BODY*/
+@media (max-width:1250px){
+    .checkout-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .boxed{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        text-align: left;
+        line-height: 2;
+        
+        
+    }
+    .payment-method{
+        display: flex;
+        width: 80%;
+    }
+    button{
+        background-color: red;
+        width: 80px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .submit{
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .comment-box{
+        padding-left: 20px;
+        min-width: 200px;
+        min-height: 100px;
+        max-width: 200px;
+        max-height: 100px;
+        
+    }
+    label {
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+        padding: 10px;
+        
+        
+    
+    }
+    input{
+      width: 150px;
+      align-items: center;
+        
+    }
+    input:placeholder-shown{
+        font-size: 15px;
+        align-items: center;
+    }
+    .service{
+        width: 80%;
+    }
+    .boxed p{
+        color: white;
+        font-size: 20px;
+        width: 40%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .boxed2{
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxed .boxed2{
+        width: 50%;
+    }
+
+}
